@@ -1,0 +1,70 @@
+<html>
+
+<head>
+
+    <title>Silicone Labs</title>
+
+    <!--Identifies the type of a media contained within style tag. Only supported attribute is CSS.-->
+    <style type="text/css">
+
+        label{
+            font-size: 14px;
+            color: royalblue;
+        }
+
+        input, textarea{
+
+            background-color: aqua
+        }
+
+        fieldset{
+            width: 100%;
+            background-color: bisque
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    Let's get selection from the user:
+    <ul>
+        <li>Text</li>
+        <li>Multiple Lines</li>
+        <li>Select Among options</li>
+        <li>Yes or No</li>
+        <li>Click a button</li>
+    </ul>
+
+    <form>
+        <fieldset>
+            <!-- The fieldset tag is used to group related elements. It will draw a box around the items-->
+            <label>First Name</label>
+            <input type="text" size="15" maxlength="25">
+
+            <label>Password</label>
+            <input type="password" size="15" maxlength="12">
+        </fieldset>
+
+        <fieldset>
+            <label>Upload Profile Picture</label>
+            <input type="file" id="profilepicture">
+        </fieldset>
+
+        <fieldset>
+            <label>Age</label>
+            <input type="number" id="userage">
+
+            <label>Describe Yourself</label>
+            <textarea rows="5" cols="45"></textarea>
+        </fieldset>
+
+    </form>
+
+
+</body>
+
+
+</html>
